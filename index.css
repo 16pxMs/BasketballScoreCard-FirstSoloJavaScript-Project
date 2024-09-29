@@ -1,0 +1,62 @@
+:root {
+    font-size: 100% ;
+}
+
+body {
+    margin: 0;
+    font-family: Orbitron, Teko, serif ;
+    background-color: hsl(229,47%, 20%);
+    height: 90vh
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.allContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 99%)
+}
+
+p {
+    font-family: Orbitron;
+    font-size: 5.265em;
+    font-weight: 600;
+    color: hsl(349, 93%, 64%);
+    margin: auto;
+}
+
+.ContentContainer {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(353, 100%, 2% );
+    width: 40em;
+    height: 25em;
+    border-radius: 5px;
+    margin: 0 0 1.625em 0;
+    text-align: center;
+}
+
+.HomeBtnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+button {
+    background-color: hsl(229,47%, 20%);
+    color: hsl(224, 44%, 73%);
+    border: 2px solid hsl(224, 44%, 73%);
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: Orbitron;
+    width: 64px;
+    height: 64px;
+}
