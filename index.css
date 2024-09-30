@@ -27,7 +27,7 @@ h3 {
 
 p {
     font-family: Orbitron;
-    font-size: 5.265em;
+    font-size: 5.265rem;
     font-weight: 600;
     color: hsl(349, 93%, 64%);
     margin: auto;
@@ -55,8 +55,19 @@ button {
     color: hsl(224, 44%, 73%);
     border: 2px solid hsl(224, 44%, 73%);
     border-radius: 5px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-family: Orbitron;
     width: 64px;
     height: 64px;
+}
+
+footer {
+    padding: 2em 0 0 0;
+}
+
+.footer {
+    color:hsl(0, 0%, 99%);
+    font-size: 1rem;
+    text-align: center;
+    /* margin: 10em 0 0 0; */
 }
