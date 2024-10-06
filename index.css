@@ -63,12 +63,10 @@ button {
 
 footer {
     padding: 7em 0 0 0;
-
 }
 
 .footer {
     color:hsl(0, 0%, 99%);
     font-size: 1rem;
     text-align: center;
-    /* margin: 10em 0 0 0; */
 }
